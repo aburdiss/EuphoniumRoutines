@@ -9,14 +9,11 @@
 import SwiftUI
 
 struct MainView: View {
-    @State var showDetail = false
-    
     var body: some View {
         NavigationView() {
             VStack {
                 NavigationLink(destination:
-                    RoutineView(showSelf: $showDetail),
-                               isActive: $showDetail
+                    RoutineView()
                 ) {
                     HStack {
                         Text("Begin Routine")
@@ -30,14 +27,12 @@ struct MainView: View {
                     .padding()
                     
                 }
+                
             }
-            
             .navigationBarTitle("Euphonium Routines")
         }
     .navigationViewStyle(StackNavigationViewStyle())
     }
-    
-
 }
 
 struct MainView_Previews: PreviewProvider {
@@ -45,4 +40,3 @@ struct MainView_Previews: PreviewProvider {
         MainView()
     }
 }
-
