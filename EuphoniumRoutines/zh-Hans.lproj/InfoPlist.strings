@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  EuphoniumRoutines
+
+  Created by Alexander Burdiss on 9/30/20.
+  Copyright © 2020 Alex Burdiss. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "上低音号套路";
+"CFBundleName" = "上低音号套路";
