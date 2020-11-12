@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  EuphoniumRoutines
+
+  Created by Alexander Burdiss on 9/30/20.
+  Copyright © 2020 Alex Burdiss. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "유포니엄 루틴";
+"CFBundleName" = "유포니엄 루틴";
